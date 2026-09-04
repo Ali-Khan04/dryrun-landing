@@ -19,7 +19,7 @@ export function ProblemSection() {
         <p className="accent-copy">Start with the concepts, not the setup.</p>
         <p>
           DryRun gives you a focused place to experiment first. It is inspired
-          by ideas used in real robotics navigation systems — not a replacement
+          by ideas used in real robotics navigation systems not a replacement
           for the full stack.
         </p>
       </div>

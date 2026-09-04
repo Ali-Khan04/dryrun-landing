@@ -9,7 +9,7 @@ export default function PrivacyPage() {
         </Link>
 
         <p className="section-label !mt-10">
-          <span></span>Terms
+          <span></span>Privacy
         </p>
 
         <h1>Privacy Policy</h1>
@@ -80,7 +80,7 @@ export default function PrivacyPage() {
         <div className="legal-footer">
           <Link href="/contact">Contact</Link>
           <Link href="/terms">Terms</Link>
-          <Link href="/">DryRun home</Link>
+          <Link href="/">Home</Link>
         </div>
       </div>
     </main>

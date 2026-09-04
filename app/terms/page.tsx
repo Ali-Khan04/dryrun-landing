@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function TermsPage() {
   return (
@@ -88,13 +88,13 @@ export default function TermsPage() {
 
         <p className="hero-note" style={{ marginTop: 28 }}>
           Last updated:
-          <span style={{ color: 'var(--teal)' }}>September 2026</span>
+          <span style={{ color: "var(--teal)" }}>September 2026</span>
         </p>
 
         <div className="legal-footer">
           <Link href="/contact">Contact</Link>
           <Link href="/privacy">Privacy</Link>
-          <Link href="/">DryRun home</Link>
+          <Link href="/">Home</Link>
         </div>
       </div>
     </main>

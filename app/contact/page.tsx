@@ -51,7 +51,7 @@ export default function ContactPage() {
       <footer className="legal-footer">
         <Link href="/privacy">Privacy</Link>
         <Link href="/terms">Terms</Link>
-        <Link href="/">DryRun home</Link>
+        <Link href="/">Home</Link>
       </footer>
     </main>
   );

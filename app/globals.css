@@ -17,6 +17,7 @@
 html {
   scroll-behavior: smooth;
   background: var(--bg);
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -68,12 +69,20 @@ a {
   width: min(1260px, calc(100% - 56px));
   margin-inline: auto;
 }
+.nav-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(11, 13, 18, 0.82);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
 .nav {
   height: 76px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--line);
 }
 .brand {
   display: flex;
@@ -194,6 +203,11 @@ a {
   display: flex;
   align-items: flex-start;
   gap: 18px;
+  flex-wrap: wrap;
+}
+.hero-heading-row h1 {
+  min-width: 0;
+  flex: 1 1 240px;
 }
 h1,
 h2,
@@ -678,7 +692,9 @@ h2 em {
     display: none;
   }
   .nav .button {
-    display: none;
+    padding: 10px 14px;
+    font-size: 11px;
+    gap: 8px;
   }
   .hero {
     padding: 68px 0 80px;
@@ -687,6 +703,7 @@ h2 em {
   .hero-heading-row {
     justify-content: space-between;
     gap: 10px;
+    flex-wrap: wrap;
   }
   .logo-mark-large {
     width: 64px;
