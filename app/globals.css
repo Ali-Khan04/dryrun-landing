@@ -630,8 +630,11 @@ h2 em {
     height: 64px;
   }
   .logo-mark-large .logo-dot {
-    transform: scale(0.73);
-    transform-origin: top left;
+    width: 15px;
+    height: 15px;
+    offset-path: path(
+      "M 7.3 45.1 L 19.6 45.1 L 19.6 32 L 39.3 32 L 39.3 18.9 L 56.7 18.9"
+    );
   }
   .hero-simulation {
     margin-top: 36px;
