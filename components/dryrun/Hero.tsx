@@ -39,18 +39,24 @@ export function Hero() {
       </div>
       <div className="hero-simulation">
         <div className="hero-video-wrapper">
-          <video
-            className="hero-video"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            aria-label="DryRun robot mapping an environment using simulated LiDAR"
-          >
-            <source src="/demo/slam.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <div className="hero-video-header">
+            <span>simulator.preview</span>
+            <span className="sim-state">● live</span>
+          </div>
+          <div className="hero-video-frame">
+            <video
+              className="hero-video"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              aria-label="DryRun robot mapping an environment using simulated LiDAR"
+            >
+              <source src="/demo/slam.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
     </section>

@@ -1,12 +1,12 @@
-import { SectionLabel } from './SectionLabel';
-import { MODES } from '@/lib/dryrun-data';
+import { SectionLabel } from "./SectionLabel";
+import { MODES } from "@/lib/dryrun-data";
 
 export function ModesSection() {
   return (
     <section className="modes shell">
-      <div className="section-intro !block">
+      <div className="section-intro section-intro--stack">
         <SectionLabel>03 / Navigation modes</SectionLabel>
-        <h2 className="!mt-4">
+        <h2 className="section-heading">
           Three ways to think
           <br />
           about a map.
@@ -15,7 +15,7 @@ export function ModesSection() {
       <div className="mode-list">
         {MODES.map((mode) => (
           <article
-            className={`mode ${mode.active ? 'active' : ''}`}
+            className={`mode ${mode.active ? "active" : ""}`}
             key={mode.tag}
           >
             <div>

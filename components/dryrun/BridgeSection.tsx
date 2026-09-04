@@ -1,14 +1,14 @@
-import Link from 'next/link';
-import { SectionLabel } from './SectionLabel';
-import { Arrow } from './Arrow';
-import { simulatorUrl } from '@/lib/dryrun-data';
+import Link from "next/link";
+import { SectionLabel } from "./SectionLabel";
+import { Arrow } from "./Arrow";
+import { simulatorUrl } from "@/lib/dryrun-data";
 
 export function BridgeSection() {
   return (
     <section className="bridge shell">
       <div className="bridge-inner">
         <SectionLabel>06 / The bridge</SectionLabel>
-        <h2>
+        <h2 className="section-heading">
           From browser sandbox
           <br />
           to <em>real robotics.</em>

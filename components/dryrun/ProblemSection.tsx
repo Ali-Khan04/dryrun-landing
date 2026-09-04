@@ -1,11 +1,11 @@
-import { SectionLabel } from './SectionLabel';
+import { SectionLabel } from "./SectionLabel";
 
 export function ProblemSection() {
   return (
     <section className="problem shell split-section">
       <div>
         <SectionLabel>01 / The starting point</SectionLabel>
-        <h2>
+        <h2 className="section-heading">
           Robotics has a<br />
           <em>setup problem.</em>
         </h2>

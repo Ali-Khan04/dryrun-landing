@@ -1,20 +1,20 @@
-import { SectionLabel } from './SectionLabel';
+import { SectionLabel } from "./SectionLabel";
 
 const TRADITIONAL = [
-  'Ubuntu',
-  'ROS 2',
-  'Gazebo',
-  'Robot packages',
-  'Configuration',
-  'Start experimenting',
+  "Ubuntu",
+  "ROS 2",
+  "Gazebo",
+  "Robot packages",
+  "Configuration",
+  "Start experimenting",
 ];
-const DRY = ['Open browser', 'Start experimenting'];
+const DRY = ["Open browser", "Start experimenting"];
 
 export function ComparisonSection() {
   return (
     <section className="comparison shell">
       <SectionLabel>05 / Before the hardware</SectionLabel>
-      <h2>
+      <h2 className="section-heading">
         Understand first.
         <br />
         <em>Go deeper later.</em>
@@ -24,7 +24,7 @@ export function ComparisonSection() {
           <span className="mode-tag">TRADITIONAL SETUP</span>
           {TRADITIONAL.map((x, i) => (
             <div className="compare-line" key={x}>
-              <span>{i === TRADITIONAL.length - 1 ? '→' : '↓'}</span>
+              <span>{i === TRADITIONAL.length - 1 ? "→" : "↓"}</span>
               {x}
             </div>
           ))}
@@ -33,7 +33,7 @@ export function ComparisonSection() {
           <span className="mode-tag">DRYRUN</span>
           {DRY.map((x, i) => (
             <div className="compare-line" key={x}>
-              <span>{i === DRY.length - 1 ? '→' : '↓'}</span>
+              <span>{i === DRY.length - 1 ? "→" : "↓"}</span>
               {x}
             </div>
           ))}
