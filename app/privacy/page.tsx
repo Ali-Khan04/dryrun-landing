@@ -1,9 +1,9 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function PrivacyPage() {
   return (
     <main>
-      <div className="legal-page mx-auto w-full max-w-[760px] px-6">
+      <div className="legal-page mx-auto w-full max-w-[760px]">
         <Link href="/" className="back-link">
           ← Back to DryRun
         </Link>
@@ -74,7 +74,7 @@ export default function PrivacyPage() {
 
         <p className="hero-note" style={{ marginTop: 28 }}>
           Last updated:
-          <span style={{ color: 'var(--teal)' }}> September 2026</span>
+          <span style={{ color: "var(--teal)" }}> September 2026</span>
         </p>
 
         <div className="legal-footer">

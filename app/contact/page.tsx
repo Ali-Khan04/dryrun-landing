@@ -1,26 +1,26 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const contacts = [
   {
-    label: 'Email',
-    value: 'alikhn2318@gmail.com',
-    href: 'mailto:alikhn2318@gmail.com',
+    label: "Email",
+    value: "alikhn2318@gmail.com",
+    href: "mailto:alikhn2318@gmail.com",
   },
   {
-    label: 'LinkedIn',
-    value: 'linkedin.com/in/aliahmedkhan04',
-    href: 'https://www.linkedin.com/in/aliahmedkhan04',
+    label: "LinkedIn",
+    value: "linkedin.com/in/aliahmedkhan04",
+    href: "https://www.linkedin.com/in/aliahmedkhan04",
   },
   {
-    label: 'GitHub',
-    value: 'github.com/Ali-Khan04',
-    href: 'https://github.com/Ali-Khan04',
+    label: "GitHub",
+    value: "github.com/Ali-Khan04",
+    href: "https://github.com/Ali-Khan04",
   },
 ];
 
 export default function ContactPage() {
   return (
-    <main className="legal-page contact-page mx-auto w-full max-w-[760px] px-6">
+    <main className="legal-page contact-page mx-auto w-full max-w-[760px]">
       <Link className="back-link" href="/">
         ← Back to DryRun
       </Link>
@@ -39,8 +39,8 @@ export default function ContactPage() {
             className="contact-item"
             href={contact.href}
             key={contact.label}
-            target={contact.label === 'Email' ? undefined : '_blank'}
-            rel={contact.label === 'Email' ? undefined : 'noreferrer'}
+            target={contact.label === "Email" ? undefined : "_blank"}
+            rel={contact.label === "Email" ? undefined : "noreferrer"}
           >
             <span>{contact.label}</span>
             <strong>{contact.value}</strong>
