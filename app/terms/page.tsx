@@ -8,10 +8,6 @@ export default function TermsPage() {
           ← Back to DryRun
         </Link>
 
-        <p className="section-label !mt-10">
-          <span></span>Terms
-        </p>
-
         <h1>Terms of use</h1>
 
         <p className="legal-intro">
