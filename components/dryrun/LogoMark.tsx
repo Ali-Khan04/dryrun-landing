@@ -22,12 +22,12 @@ export function LogoMark({ large = false }: { large?: boolean }) {
         />
         <path
           d="M6 20 L6 14 L14 14 L14 8 L22 8"
-          stroke="var(--teal)"
+          stroke="var(--logo-teal)"
           strokeWidth="2.4"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
-        <circle cx="22" cy="8" r="2.6" fill="var(--teal)" />
+        <circle cx="22" cy="8" r="2.6" fill="var(--logo-teal)" />
       </svg>
       <span className="logo-dot" aria-hidden="true" />
     </div>

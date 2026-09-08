@@ -8,8 +8,9 @@
   --text: #eaedf2;
   --muted: #808a9c;
   --faint: #4b5568;
-  --teal: #4ce8b8;
-  --copper: #ff8f5c;
+  --teal: #e07a42;
+  --copper: #e07a42;
+  --logo-teal: #4ce8b8;
 }
 * {
   box-sizing: border-box;
@@ -120,7 +121,7 @@ a {
   offset-path: path("M 3.5 20 L 9 20 L 9 14 L 17 14 L 17 8 L 24 8");
   offset-distance: 0%;
   animation: travel 3.2s ease-in-out infinite;
-  box-shadow: 0 0 8px #ff8f5c99;
+  box-shadow: 0 0 8px #e07a4299;
 }
 .logo-mark-large {
   width: 88px;
@@ -173,7 +174,7 @@ a {
 }
 .button:hover {
   transform: translateY(-2px);
-  background: #72f0c8;
+  background: #ea9366;
 }
 .button-small {
   padding: 11px 14px;
@@ -395,7 +396,7 @@ h2 em {
   border: 0;
 }
 .mode.active {
-  background: #4ce8b810;
+  background: #e07a4210;
 }
 .mode.active .mode-tag,
 .mode.active h3 {
@@ -439,7 +440,7 @@ h2 em {
   min-height: 300px;
 }
 .compare-card.dry {
-  border-color: #4ce8b866;
+  border-color: #e07a4266;
 }
 .compare-line {
   font: 16px monospace;
