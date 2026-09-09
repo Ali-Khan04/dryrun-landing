@@ -24,10 +24,6 @@ export default function ContactPage() {
       <Link className="back-link" href="/">
         ← Back to DryRun
       </Link>
-      <p className="section-label !mt-10">
-        <span />
-        Contact
-      </p>
       <h1>Let&apos;s connect.</h1>
       <p className="legal-intro">
         Have a question, idea, or feedback about DryRun? Reach out through any

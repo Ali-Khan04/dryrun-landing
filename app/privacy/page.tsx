@@ -8,10 +8,6 @@ export default function PrivacyPage() {
           ← Back to DryRun
         </Link>
 
-        <p className="section-label !mt-10">
-          <span></span>Privacy
-        </p>
-
         <h1>Privacy Policy</h1>
 
         <p className="legal-intro">
